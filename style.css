@@ -1,0 +1,366 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: #f6f6f6;
+	padding: 22px 0;
+}
+.header-container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-container a{
+	color: #000;
+	margin-right: 63px;
+	font-size: 16px;
+	padding: 27px 6px;
+}
+.header-container a:hover{
+	background: #ffea00;
+}
+#menu-checkbox{
+	display: none;	
+}
+ul{
+	display: flex;	
+}
+nav{
+	margin-top: 20px;
+}
+
+.top-slide{
+	background: url(img/slider_bg.jpg) no-repeat;
+	
+	padding-top: 120px;
+	padding-bottom: 280px;
+}
+.top-container{
+	width: 85%;
+	margin: 0 auto;
+}
+.top-slide h2{
+	background: #ffeb00;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-slide :nth-child(2){     /* использование псевдокласса второго по счету элемента*/
+	margin-bottom: 10px;
+}
+.top-slide p{
+	background: #3f3f44;
+	display: inline;
+	color: #ffffff;
+	font-size: 22px;
+	padding: 0 4px;
+}
+.spec-container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.spec-container h3{
+	font-size: 35px;
+}
+.spec-container p{
+	
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+.first-p{
+	font-size: 20px;
+	color: white;
+}
+.bottom-card{
+	background: #3f3f44;
+	position: relative;
+	
+}
+.spec-cards{
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	margin: 0 0 0 20px;
+}
+.top-card2 {
+    padding-top: 40px;
+    background: #ffeb00;
+    height: 175px;
+    
+}
+.first-p1{
+	font-size: 17px;
+}
+
+.portfolio{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio h4 {
+    background: #403f46;
+    padding: 0 4px;
+    display: inline-block;
+    color: #ffeb00;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.portfolio p{
+	color: #727174;
+	font-size: 16px;
+}
+.bottom-card1{
+	background: #3f3f44;
+	position: relative;
+	
+}
+.bottom-card1 p{
+	font-size: 12px;
+	height: 70px;
+	width: 250px;
+	text-align: inherit;
+	margin: auto;
+}
+.top-card2 p{
+	margin-top: 35px;
+}
+.top-card2 .webp{
+	margin-top: 44px;
+}
+.top-card2 .graphp{
+	margin-top: 22px;
+}
+.toggles button{
+	border: none;
+	color: #413f45;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+}
+.toggles button:after{
+	content: " / "	
+}
+.toggles button:last-child:after{
+content: "  "		
+}
+
+.posts{
+	width: 100%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto ;
+
+}
+.brand-slider{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.brand-slider h4 {
+	margin-top: 30px;
+    background: #403f46;
+    padding: 0 4px;
+    display: inline-block;
+    color: #ffeb00;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.brand-slider p{
+	color: #727174;
+	font-size: 16px;
+}
+
+footer{
+	background: #414141;
+	padding: 30px 0 0 0;
+	color: white;
+
+}
+footer h4{
+	font-size: 18px;
+	margin-top: 15px;
+}
+.footer-container{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 40% 33% 20%;
+	grid-column-gap: 2%;
+}
+ .about-us a{
+	background: #000;
+	color: white;
+	font-size: 13px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-bottom: 2px solid #ffeb00;
+	display: inline-block;
+}
+.about-us p{
+	font-size: 13px;
+}
+.images{
+	margin-top: 10px;
+}
+.tweets p{
+	font-size: 13px;
+ margin-top: 25px;
+
+}
+.contacts p{
+
+	font-size: 14px;
+}
+.tweets span{
+	color: #ecd80a;
+}
+.contacts span{
+	color: #ecd80a;
+}
+#followus{
+	margin: 20px 0 10px 0;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	background: #222222;
+	padding: 0 0 5px 0;
+
+}
+.wrapper p{
+	display: flex;
+	justify-content: center;
+}
+.wrapper {
+	
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin-right: 5px;
+	
+}
+.wrapper a{
+	font-size: 10px;
+	margin-right: 36px;
+	color: white;
+	margin: 10px 36px 10px 0;
+}
+.wrapper a:hover{
+	opacity: 0.6;
+}
+.tweets img{
+	margin-left: 6px;
+}
+#contact-img{
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+@media screen and ( max-width: 420px) {
+	.header-container{
+		width: 100%;
+		display: flex;
+		justify-content: space-around /* Определяет как браузер распределит пространство между и вокруг элементов контента */
+	}
+	.main-menu{
+		display: none;
+	}
+	.main-menu li{
+		width: 100%;
+		display: block;
+		font-size: 12px;
+	}
+	.main-menu a{
+		display: block;
+		padding: 8px;
+	}
+	.toggle-button{
+		text-align: center;
+		display: block;
+		cursor: pointer;
+		color: black;
+	}
+	.toggle-button:after{
+		content: attr(data-open);
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .main-menu{
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+		content: attr(data-close);
+	}
+	.header-container a{
+		margin-right: 150px;
+	}
+	.main_menu{
+		position: relative;
+		top: 30px;
+		right: 115px;
+	}
+	.top-slide {   
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .top-slide h2 {
+    	font-size: 32px;
+    }
+    .top-slide p {
+    font-size: 16px;
+}
+    .spec-cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+  	.bottom-card{
+  		width: 250px;
+  		margin: 0 auto;
+  	}
+	.posts{
+	width: 100%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto ;	
+}
+.top-card2 {
+    padding-top: 40px;
+    background: #ffeb00;
+    height: 175px;
+    margin-top: 30px;
+}
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: block; 
+    grid-template-columns: 40% 33% 20%;
+    grid-column-gap: 2%;
+    padding-bottom: 20px;
+}
+#LearnMore{
+	margin-left: 130px;
+}
+.about-us .images{
+	margin-left: 40px;
+}
+
+}
+}
